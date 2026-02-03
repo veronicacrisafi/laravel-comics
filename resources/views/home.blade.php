@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>ciao</h1>
+    @include('partials.header')
 </body>
 
 </html>
