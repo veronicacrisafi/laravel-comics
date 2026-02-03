@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="it">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <title>Laravel-comics</title>
-</head>
-
-<body>
-    @include('partials.header')
-    @include('partials.footer')
-</body>
-
-</html>
+@extends('layouts.master')
+@section('contenuto')
+    <h1>prova</h1>
+@endsection
