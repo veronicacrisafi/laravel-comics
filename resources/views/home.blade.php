@@ -13,4 +13,7 @@
             </div>
         @endforeach
     </div>
+    <div class="d-flex justify-content-center">
+        <a href="" class="btn btn-primary">LOAD MORE</a>
+    </div>
 @endsection
