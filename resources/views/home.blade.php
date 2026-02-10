@@ -4,3 +4,8 @@
 
     <x-card> contenuto card</x-card>
 @endsection
+
+@php
+    $cards = config('comics');
+    dd($cards);
+@endphp
