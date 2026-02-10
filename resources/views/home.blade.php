@@ -5,7 +5,7 @@
 @endphp
 @section('contenuto')
     <h1>DC COMICS</h1>
-    <div class="row row-cols-3">
+    <div class="row row-cols-6">
         @foreach ($cards as $card)
             <div class="col">
                 <x-card :immagine="$card['thumb']" :titolo="$card['title']">
