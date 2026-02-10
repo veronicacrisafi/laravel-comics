@@ -8,8 +8,8 @@
     <div class="row row-cols-3">
         @foreach ($cards as $card)
             <div class="col">
-                <x-card>
-                    <x-slot:titolo>{{ $card['title'] }}</x-slot>
+                <x-card :immagine="$card['thumb']" :titolo="$card['title']">
+
                 </x-card>
             </div>
         @endforeach
