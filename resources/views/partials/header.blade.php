@@ -1,6 +1,5 @@
 <header>
-    <nav>
-        logo DC e link pagina
+    <nav class="d-flex justify-content-between my-3">
         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo DC header">
         @php
             $headerLinks = [
@@ -16,9 +15,9 @@
                 'shop' => 'Shop',
             ];
         @endphp
-        <ul>
+        <ul class="list-unstyled d-flex pt-4">
             @foreach ($headerLinks as $key => $label)
-                <li class="text-uppercase">{{ $label }}</li>
+                <li class="text-uppercase px-2">{{ $label }}</li>
             @endforeach
         </ul>
     </nav>
