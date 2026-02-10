@@ -9,7 +9,6 @@
         @foreach ($cards as $card)
             <div class="col">
                 <x-card :immagine="$card['thumb']" :titolo="$card['title']">
-
                 </x-card>
             </div>
         @endforeach
