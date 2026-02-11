@@ -1,5 +1,6 @@
-<footer class="footer-bg" style="background-image: url('{{ Vite::asset('resources/img/footer-bg.jpg') }}');">
-    <div class="container">
+<footer class="footer-bg"
+    style="background-image: url('{{ Vite::asset('resources/img/footer-bg.jpg') }}'); background-repeat: no-repeat; background-size: 100% auto;">
+    <div class="container py-5">
         <div class="row">
             <div class="col-3">
                 <h6 class="text-white text-uppercase fw-bold">DC Comics</h6>
