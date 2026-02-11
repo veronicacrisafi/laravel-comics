@@ -10,3 +10,17 @@ a:hover {
     padding-bottom: 70px;
     transition: border-color 0.2s;
 }
+
+
+.current-series-box {
+    font-size: 1.2rem;
+    background: #0056d2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 12px 32px;
+    margin-bottom: 24px;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    letter-spacing: 1px;
+}

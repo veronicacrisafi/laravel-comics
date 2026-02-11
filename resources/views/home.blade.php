@@ -6,6 +6,12 @@
 @section('contenuto')
     <div class="bg-dark">
         <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="current-series-box bg-primary text-white fw-bold px-4 py-2 mb-4"
+                    style="font-size: 1.2rem; border-radius: 0px;">
+                    CURRENT SERIES
+                </div>
+            </div>
             <div class="row row-cols-6">
                 @foreach ($cards as $card)
                     <div class="col">
