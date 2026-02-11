@@ -1,5 +1,5 @@
 <footer class="footer-bg"
-    style="background-image: url('{{ Vite::asset('resources/img/footer-bg.jpg') }}'); background-repeat: no-repeat; background-size: 100% auto;">
+    style="background-image: url('{{ Vite::asset('resources/img/dc-logo-bg.png') }}'), url('{{ Vite::asset('resources/img/footer-bg.jpg') }}'); background-repeat: no-repeat, no-repeat; background-size: 35vw auto, 100% auto; background-position: right center, left top;">
     <div class="container py-5">
         <div class="row">
             <div class="col-3">
