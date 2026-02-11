@@ -15,6 +15,7 @@
         @yield('contenuto')
     </div>
     @include('partials.store')
+    @include('partials.info')
     @include('partials.footer')
 
 </body>
