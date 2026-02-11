@@ -10,10 +10,8 @@
 </head>
 
 <body>
-    <div class="container">
-        @include('partials.header')
-        @yield('contenuto')
-    </div>
+    @include('partials.header')
+    @yield('contenuto')
     @include('partials.store')
     @include('partials.info')
     @include('partials.footer')

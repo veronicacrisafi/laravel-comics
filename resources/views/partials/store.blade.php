@@ -1,6 +1,6 @@
 <div class="bg-primary">
     <div class="container">
-        <div class="row mt-5 pt-3">
+        <div class="row pt-3">
             <ul class="d-flex justify-content-around list-unstyled align-items-center">
                 <li>
                     <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="digital comics"
