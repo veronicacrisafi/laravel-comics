@@ -20,7 +20,7 @@
             <ul class="list-unstyled d-flex pt-4">
                 @foreach ($headerLinks as $key => $label)
                     <li class="text-uppercase px-2">
-                        <a href="#" class="text-decoration-none text-dark">
+                        <a href="#" class="text-decoration-none text-dark header-link">
                             {{ $label }}
                         </a>
                     </li>

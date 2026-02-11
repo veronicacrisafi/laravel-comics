@@ -2,3 +2,11 @@ a:hover {
     color: #05c0f9 !important;
     transition: color 0.2s;
 }
+
+.header-link:hover,
+.header-link.active {
+    color: #0056d2 !important;
+    border-bottom: 5px solid #0056d2;
+    padding-bottom: 70px;
+    transition: border-color 0.2s;
+}
