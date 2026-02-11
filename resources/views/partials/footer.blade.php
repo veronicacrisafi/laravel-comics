@@ -1,4 +1,4 @@
-<footer class="bg-dark py-5">
+<footer class="footer-bg" style="background-image: url('{{ Vite::asset('resources/img/footer-bg.jpg') }}');">
     <div class="container">
         <div class="row">
             <div class="col-3">
