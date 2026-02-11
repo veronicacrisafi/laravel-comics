@@ -1,4 +1,3 @@
 <footer>
-    <hr>
-    link footer social
+    prova footer
 </footer>

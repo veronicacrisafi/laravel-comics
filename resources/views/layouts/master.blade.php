@@ -13,8 +13,9 @@
     <div class="container">
         @include('partials.header')
         @yield('contenuto')
-        @include('partials.footer')
     </div>
+    @include('partials.store')
+    @include('partials.footer')
 
 </body>
 
