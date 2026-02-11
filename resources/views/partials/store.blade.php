@@ -1,29 +1,33 @@
-<div class="row bg-primary mt-5 pt-3">
-    <ul class="d-flex justify-content-around list-unstyled">
-        <li>
-            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="digital comics"
-                style="width:50px">
-            <a href="" class="text-light text-decoration-none">DIGITAL COMICS</a>
-        </li>
-        <li>
-            <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="dc merchandise"
-                style="width:60px">
-            <a href="" class="text-light text-decoration-none">DC MERCHANDISE</a>
-        </li>
-        <li>
-            <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="subscription"
-                style="width:60px">
-            <a href="" class="text-light text-decoration-none">SUBSCRIPTION</a>
-        </li>
-        <li>
-            <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="comic shop locator"
-                style="width:40px">
-            <a href="" class="text-light text-decoration-none">COMIC SHOP LOCATOR</a>
-        </li>
-        <li>
-            <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="dc power visa" style="width:70px">
-            <a href="" class="text-light text-decoration-none">DC POWER VISA</a>
-        </li>
-    </ul>
-
+<div class="bg-primary">
+    <div class="container">
+        <div class="row mt-5 pt-3">
+            <ul class="d-flex justify-content-around list-unstyled">
+                <li>
+                    <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="digital comics"
+                        style="width:50px">
+                    <a href="" class="text-light text-decoration-none">DIGITAL COMICS</a>
+                </li>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="dc merchandise"
+                        style="width:60px">
+                    <a href="" class="text-light text-decoration-none">DC MERCHANDISE</a>
+                </li>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="subscription"
+                        style="width:60px">
+                    <a href="" class="text-light text-decoration-none">SUBSCRIPTION</a>
+                </li>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="comic shop locator"
+                        style="width:40px">
+                    <a href="" class="text-light text-decoration-none">COMIC SHOP LOCATOR</a>
+                </li>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="dc power visa"
+                        style="width:70px">
+                    <a href="" class="text-light text-decoration-none">DC POWER VISA</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
