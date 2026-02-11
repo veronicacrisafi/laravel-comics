@@ -2,6 +2,7 @@
     <nav class="d-flex justify-content-between my-3">
         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo DC header">
         @php
+            //approccio con array associativo
             $headerLinks = [
                 'characters' => 'Characters',
                 'comics' => 'Comics',
