@@ -13,6 +13,7 @@
 <body>
     @include('partials.header')
     @yield('contenuto')
+    @yield('contenutoCard')
     @include('partials.store')
     @include('partials.info')
     @include('partials.footer')
